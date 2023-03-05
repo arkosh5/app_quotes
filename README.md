@@ -12,11 +12,11 @@ To use this app, simply open the live demo in your web browser. The app will dis
 # Installation
 To install this app on your local machine, you will need to follow these steps:
 
-Clone the repository to your local machine using git clone https://github.com/your-username/quote-generator.git
+Clone the repository to your local machine using ```git clone https://github.com/arkosh5/quote-generator.git```
 Navigate to the project directory using cd quote-generator
-Install the required dependencies using npm install
-Start the app using npm start
-The app will be available at http://localhost:3000 in your web browser.
+Install the required dependencies using ```npm install```
+Start the app using ```npm start```
+The app will be available at``` http://localhost:3000``` in your web browser.
 
 # Technologies Used
 This app was built using the following technologies:
