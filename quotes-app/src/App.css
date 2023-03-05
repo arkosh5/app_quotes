@@ -1,0 +1,136 @@
+/* general styling */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  color: #008cba;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Styling for the Quote Card */
+.quote-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  background-image: url("assets/paper-texture.jpg");
+}
+
+/* Styling for the Quote Text */
+.quote-text {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote-text i {
+  margin-right: 10px;
+}
+
+/* Styling for the Quote Author */
+.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling for the Button Container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button {
+  background-color: #008cba;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005b7c;
+}
+
+/* Styling for the Font Awesome Icons */
+.fab {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Styling for the Twitter Icon */
+#twitter-quote {
+  background-color: #55acee;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+}
+
+#tumblr-quote {
+  background-color: #35465c;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+}
+
+#facebook-quote {
+  background-color: #3b5998;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+}
+
+/* make the page responsive */
+@media (max-width: 768px) {
+  .quote-card {
+    padding: 20px;
+  }
+}
+
+.language-label {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* style the search bar input and make it responsive */
+input[type="text"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+
+
+

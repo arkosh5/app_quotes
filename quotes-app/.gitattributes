@@ -1,0 +1,12 @@
+# Set the line ending format for all files
+* text=auto
+
+# Set the line ending format for specific file types
+*.txt text
+*.md text
+*.js text
+*.css text
+*.html text
+*.json text
+*.xml text
+*.yml text
